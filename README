@@ -1,0 +1,8 @@
+README
+/* Hairong Wang, hw385 */
+To run this code successfully, we should compile the code in terminals--one for server and one or more for clients.
+cd to the location of the code. For server, we should input "javac BasicServer.java"to compile, then input "java BasicServer 11111".
+11111 is the port number, we can change it from 1024 to 65535.
+For clients, we should also input "javac BasicClient,java" to compile and "java BasicClient localhost 11111". Localhost is the IP address, and 11111 should be the same port number with the server input.
+Now we can input GET <filename>, BOUNCE <text-to-bounce>, EXIT and EXIT<exit code> to get the answer from the server, which satisfy the requirements. The results would be both shown in the server and client terminals.
+
